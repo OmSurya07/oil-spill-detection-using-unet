@@ -14,7 +14,6 @@ This project uses deep learning and satellite imagery to detect and segment oil 
 - Google Colab
 - NumPy
 - Matplotlib
-- OpenCV
 
 ## Dataset
 The project uses the **Refined Deep-SAR Oil Spill Dataset**.
@@ -43,10 +42,11 @@ The model achieved the following validation metrics at a threshold of 0.55:
 ```text
 oil-spill-detection-using-unet/
 ├── notebooks/
-│   └── oil_spill_detection_using_unet.ipynb
+│   ├── oil_spill_detection_using_unet.ipynb
+│   └── README.md
 ├── results/
+│   └── sample_predictions.png
 ├── README.md
-├── requirements.txt
 └── .gitignore
 ```
 
