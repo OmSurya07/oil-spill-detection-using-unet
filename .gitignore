@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Oil spill dataset
+dataset/
+oil_spill_data/
+*.zip
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
